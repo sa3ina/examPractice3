@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+* {
+  font-family: "Poiret One", sans-serif;
+}
+.about {
+  background-image: url("https://preview.colorlib.com/theme/cakeshop/assets/img/hero/h1_hero1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  text-align: left;
+
+  color: white;
+  p {
+    font-size: 60px;
+  }
+  button {
+    background-color: #e5bf4a;
+    color: black;
+    padding: 15px 34px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text {
+    max-width: 1000px;
+    width: 70%;
+    padding-left: 100px;
+  }
+}
+.navbar {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  //   position: fixed;
+  font-weight: 700;
+  top: 0;
+  width: 100%;
+}
+.navbartop {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+  padding: 10px;
+  .social {
+    display: flex;
+    gap: 20px;
+  }
+  .call {
+    color: #e5bf4a;
+    border: 1px solid #e5bf4a;
+    padding: 15px 7px;
+  }
+}
+.contact {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .cont {
+    max-width: 1100px;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .schilers {
+      font-size: 36px;
+    }
+    .line {
+      background-color: #e5bf4a;
+      height: 3px;
+      width: 90px;
+      margin-bottom: 50px;
+    }
+  }
+  .imgg {
+    display: flex;
+    text-align: left;
+    .this {
+      color: #e5bf4a;
+      font-size: 25px;
+      margin-bottom: 50px;
+    }
+    .text {
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .imgg {
+      display: block;
+    }
+  }
+}
+.cakes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+
+  .cont {
+    max-width: 1200px;
+  }
+  .card {
+    margin-bottom: 10px;
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cart {
+      background-color: rgb(245, 245, 245);
+      padding: 5px;
+      color: black;
+      font-weight: 700;
+    }
+    button {
+      background-color: transparent;
+      color: white;
+      border: none;
+    }
+  }
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.wishlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: flex;
+
+  .cont {
+    max-width: 1200px;
+  }
+  .card {
+    margin-bottom: 10px;
+    font-weight: 700;
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+    .cart {
+      background-color: rgb(0, 0, 0);
+      padding: 5px;
+      color: rgb(255, 255, 255);
+    }
+    button {
+      background-color: transparent;
+      color: rgb(0, 0, 0);
+      border: none;
+    }
+    .inc {
+      font-size: 20px;
+      border: 1px solid black;
+    }
+    .delete {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+.delete {
+  background-color: #c1121f;
+  color: white;
+  border: none;
+  padding: 8px;
+}
+.post {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.buttonsort {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  .price {
+    background-color: #ffb3c6;
+    border: none;
+    padding: 12px;
+  }
+  .az {
+    border: none;
+    padding: 11px;
+    background-color: #ff8fab;
+  }
+  .za {
+    border: none;
+    padding: 10px;
+    background-color: #fb6f92;
+  }
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 1;
+}
+.detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: flex;
+
+  .cont {
+    max-width: 1200px;
+  }
+  .card {
+    margin-bottom: 10px;
+    .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cart {
+      background-color: rgb(245, 245, 245);
+      padding: 5px;
+      color: black;
+      font-weight: 700;
+    }
+    button {
+      background-color: transparent;
+      color: white;
+      border: none;
+    }
+  }
+}
